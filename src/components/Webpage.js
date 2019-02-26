@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import FillerText from './FillerText'
 
-class Webpage extends React.Component {
+export default class Webpage extends React.Component {
   render() {
     return (
       <div>
@@ -10,7 +10,6 @@ class Webpage extends React.Component {
         <FillerText />
         <FillerText />
       </div>
-    )}
-  };
-
-export default Webpage
+    )
+  }
+};
