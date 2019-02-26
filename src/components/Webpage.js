@@ -10,8 +10,7 @@ class Webpage extends React.Component {
         <FillerText />
         <FillerText />
       </div>
-      )
-  }
-}
+    )}
+  };
 
 export default Webpage
